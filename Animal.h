@@ -4,8 +4,8 @@
 
 class Aminal {
 public:
-    Animal(); //Constructor declaration 
-
+    Animal(); //Constructor 
+    ~Animal(); //Destructor 
     Virtual speak(); //Virtual function 
 
     void Jump(); //Non Virtula function 
