@@ -1,12 +1,12 @@
-#ifndef Animal.h
-#define Aminal.h
+#ifndef ANIMAL_H
+#define ANIMAL_H
 
 
-class Aminal {
+class Animal {
 public:
     Animal(); //Constructor 
     ~Animal(); //Destructor 
-    Virtual speak(); //Virtual function 
+    virtual void Speak() = 0; //Virtual function 
 
     void Jump(); //Non Virtula function 
 
@@ -20,3 +20,5 @@ private:
 };
 
 #endif
+
+
